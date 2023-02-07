@@ -1,5 +1,10 @@
-# test-projects
+# Netbook Landing Page
 
+## Tech Stack
+```
+- Vue JS
+- Vanilla CSS
+```
 ## Project setup
 ```
 npm install
