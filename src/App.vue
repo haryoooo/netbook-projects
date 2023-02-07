@@ -1,26 +1,50 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div id="topContent">
+      <Navbar />
+      <Home />
+    </div>
+    <Blog />
+    <Achievement />
+    <Community />
+    <Members />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Achievement from "./components/Achievement.vue";
+import Community from "./components/Community.vue";
+import Navbar from "./components/Navbar.vue";
+import Blog from "./components/Blog.vue";
+import Members from "./components/Members.vue";
+import Home from "./views/Home.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Achievement,
+    Community,
+    Members,
+    Navbar,
+    Home,
+    Blog,
+  },
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Inter";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#topContent {
+  background-image: url(./assets/base.png);
+  margin-bottom: 100px;
 }
 </style>
