@@ -1,6 +1,6 @@
 <template>
   <div class="contentWrapper">
-    <h4>Search...</h4>
+    <h4 class="text-green-900">Search...</h4>
     <div class="btnWrapper">
       <Buttons :title="buttonTitle" />
     </div>
