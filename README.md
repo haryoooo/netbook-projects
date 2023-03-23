@@ -4,6 +4,7 @@
 ```
 - Vue JS
 - Vanilla CSS
+- AOS
 ```
 ## Project setup
 ```
